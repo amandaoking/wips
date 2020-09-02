@@ -1,0 +1,84 @@
+@-webkit-keyframes blink {
+ to {
+        visibility: hidden;
+    }
+}
+
+@keyframes blink {
+ to {
+        visibility: hidden;
+    }
+}
+
+#tachannelstatus {
+    margin: 0;
+}
+
+#taInfo {
+	-webkit-box-shadow: 0px 0px 15px 4px rgba(94,94,94,1);
+	-moz-box-shadow: 0px 0px 15px 4px rgba(94,94,94,1);
+	box-shadow: 0px 0px 15px 4px rgba(94,94,94,1);
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	text-align: center; 
+	height: auto; 
+	width: 400px !important; 
+	background: #ffffff; 
+	padding: 20px; 
+	z-index: 2147483647 !important; 
+	position: fixed !important; 
+	top: 50%; 
+	left: 50%; 
+	margin-top: -130px; 
+	margin-left: -200px;
+	border: 5px solid #6441A5;
+	font-family: Georgia, "Times New Roman", Times, serif !important;	
+	font-size: 12px;
+	color: #333;	
+}
+
+#taInfo h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #6441A5;
+}
+
+#taInfo a:link, #taInfo a:visited, #taInfo a:active {
+	color: #6441A5;
+}
+
+#taInfo a:hover {
+	color: #B9A3E3;
+}
+
+#taTwitchLogo {
+	background:url(images/taTwitchLogo.png) no-repeat center;
+	position: absolute;
+	margin-top: -61px;
+	margin-left: 90px;
+	height: 61px;
+	width: 175px;
+}
+
+#taAlertClose {
+	background:url(images/closeButton.png) no-repeat center;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	bottom: -12px;
+	right: -12px;
+	cursor: pointer;
+	color: #6441A5;
+}
+
+#talightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:url(images/background.png) repeat; 
+    text-align:center;
+	z-index: 2147483646;
+}
